@@ -1,7 +1,7 @@
 const express = require('express');
+const dotenv = require('dotenv');
 const { dbConfig } = require('./config'); // Import dbConfig from the config
 const cors = require('cors');
-const dotenv = require('dotenv');
 
 // Load environment variables from .env file
 dotenv.config();
